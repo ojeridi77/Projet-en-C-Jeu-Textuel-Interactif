@@ -1,0 +1,77 @@
+# Section 0
+[Narration]
+Amérique 1947, 2 ans après la fin de la 2e guerre mondial, vous incarnez Vito SCALETA jeune soldat revenus au pays après une blessures par balle. 
+Ce dernier est revenus pour prendre un nouveau départ afin de quitter cette vie de guerre de violence.
+En rentrant il fait la rencontre de son ami d'enfance
+Julio BARONE 
+[/Narration]
+[Dialogue]
+- Julio : "OHH VITO !! Comment tu vas mon frère ? ça fait un bail "
+- VITO : "OHH julio !!  Je vais bien mon frère et toi ?"
+- Julio : "ça va, ça va ! Depuis que tu es partie au front beacoup de chose on changer"
+- Julio : "Tient ça te dirait qu'on parte boir un ver ?"
+[/Dialogue]
+[Choix]
+Suivre Julio -> Section : 1
+Prendre un TAXI pour rentrer chez vous  -> Section : 2
+[/Choix]
+
+# Section 1
+[Narration]
+En explorant la clairière, vous trouvez un coffre ancien recouvert de mousse.
+[/Narration]
+[Dialogue]
+- Guide : "Un trésor, peut-être ? Vous pouvez l'ouvrir pour voir ce qu'il contient."
+[/Dialogue]
+[Choix]
+Ouvrir le coffre -> Section : 3
+Ignorer le coffre -> Section : 4
+[/Choix]
+
+# Section 2
+[Narration]
+Vous suivez le chemin sombre, mais il semble sans fin et rempli de dangers invisibles. Une torche est posée sur le sol.
+[/Narration]
+[Dialogue]
+- Guide : "Cette torche pourrait vous être utile pour éclairer votre chemin."
+[/Dialogue]
+[Choix]
+Prendre la torche -> Section : 5
+Laisser la torche -> Section : 6
+[/Choix]
+
+# Section 3
+[Narration]
+Vous ouvrez le coffre et trouvez une clé dorée ornée de gemmes. Elle brille légèrement dans vos mains.
+[/Narration]
+"Clé dorée"
+[Dialogue]
+- Guide : "Cette clé semble importante. Gardez-la précieusement."
+[/Dialogue]
+[Choix]
+Continuer la route -> Section : 6
+Ignorez le coffre -> Section : 4
+[/Choix]
+
+# Section 4
+[Narration]
+Vous ignorez le coffre et continuez à explorer. Le mystère reste intact.
+[/Narration]
+[Fin]
+
+# Section 5
+"Torche"
+[Narration]
+Vous prenez la torche. La lumière qu'elle dégage vous donne un sentiment de sécurité dans l'obscurité.
+[/Narration]
+[Dialogue]
+- Guide : "Avec cette torche, vous pourrez voir au-delà des ombres."
+[/Dialogue]
+[Fin]
+
+# Section 6
+<Clé dorée>
+[Narration]
+Vous laissez la torche et continuez dans l'obscurité. Chaque pas devient plus incertain.
+[/Narration]
+[Fin]
